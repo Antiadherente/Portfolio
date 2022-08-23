@@ -1,0 +1,15 @@
+const seccionesPagina = new fullpage("#fullpage",{
+    autoScrolling: true,
+	fitToSection: false,
+	fitToSectionDelay: 300,
+	easing: 'easeInOutCubic',
+	scrollingSpeed: 700,
+	css3: true,
+	easingcss3: 'ease-out',
+	loopBottom: false,
+    navigation: true,
+	menu: '#menu',
+	anchors: ['home', 'certifications', 'projects','knowledges','contact'],
+	navigationTooltips: ['Home', 'Certifications','Projects' ,'Knowledges', 'Contact'],
+	showActiveTooltip: false,
+});
