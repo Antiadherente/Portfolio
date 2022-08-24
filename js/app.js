@@ -9,7 +9,7 @@ const seccionesPagina = new fullpage("#fullpage",{
 	loopBottom: false,
     navigation: true,
 	menu: '#menu',
-	anchors: ['home', 'certifications', 'projects','knowledges','contact'],
-	navigationTooltips: ['Home', 'Certifications','Projects' ,'Knowledges', 'Contact'],
+	anchors: ['home' , 'certifications' , 'projects' , 'knowledges' , 'contact'],
+	navigationTooltips: ['Home' , 'Certifications' , 'Projects' , 'Knowledges' , 'Contact'],
 	showActiveTooltip: false,
 });
