@@ -8,6 +8,7 @@ const seccionesPagina = new fullpage("#fullpage",{
 	easingcss3: 'ease-out',
 	loopBottom: false,
     navigation: true,
+	credits:false,
 	menu: '#menu',
 	anchors: ['home' , 'certifications' , 'projects' , 'knowledges' , 'contact'],
 	navigationTooltips: ['Home' , 'Certifications' , 'Projects' , 'Knowledges' , 'Contact'],
