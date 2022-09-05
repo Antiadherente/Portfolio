@@ -202,7 +202,7 @@ body {
 
 /* CERTIFICATIONS */
 
-.certifications1 h1{
+.title-certification h1{
     color: white;
     text-shadow: black 10px 0 10px;
     font-size: 60px;
@@ -212,6 +212,16 @@ body {
     justify-content: center;
 }
 
+.certifications1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.certifications1 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
 
 /* PROJECTS */
 
